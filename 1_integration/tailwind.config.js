@@ -11,6 +11,13 @@ export default {
         tech: ['TechnicalForest'],
         bunkenwide: ['BunkenWide'],
         bunkenlight: ['Bunken Tech Sans Pro Light']
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translate(0px, 0px)' },
+          '50%': { transform: 'translate(0px, 5px)' },
+          
+        }
       }
 
     },
