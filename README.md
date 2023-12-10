@@ -39,3 +39,10 @@ if(div>0 && max > 0){
 
 
 ## 3 - Database
+### Enoncé
+Réaliser le diagramme du modèle physique pour une base de données relationnelle qui stockera des logements (appartement et maison) et leurs habitants (locataire et propriétaire).
+
+Ce modèle contiendra les entités (tables), les attributs (champs) et leurs types, les identifiants (clés primaires) et les relations (clés étrangères issues des cardinalités).
+
+### Résultat
+![Résultat exercice 3](ex3_img.png)
