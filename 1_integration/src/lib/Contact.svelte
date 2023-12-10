@@ -4,8 +4,11 @@
 
 <div class="px-60 py-38 h-96 flex flex-col justify-evenly" id="contact">
         <Heading  title="Contact" subtitle="Dare to discover"/>
-        <p class="text-slate-500 font-bunkenlight">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate incidunt iusto ratione quam ducimus, nisi veniam odit, consequatur officia expedita debitis qui labore. Tempora, omnis voluptates ipsum alias beatae error!
+        <p class="text-slate-300 font-bunkenlight mx-auto">
+            Website made by Theo Gicquel
         </p>
+        
+        <a class="text-orange-500 font-bunkenlight mx-auto animate-pulse hover:underline ease-in-out" href="mailto:theo.gicquel.work@gmail.com">theo.gicquel.work@gmail.com</a>
+        <a class="text-blue-500 font-bunkenlight mx-auto animate-pulse hover:underline ease-in-out" href="github.com/TheoGicquel">Github</a>
     
 </div>

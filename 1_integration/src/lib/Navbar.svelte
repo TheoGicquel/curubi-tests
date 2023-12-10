@@ -13,6 +13,8 @@
 		"Discovery": "",
     }
 
+
+
 </script>
 
 
@@ -41,7 +43,10 @@
             {/if}
 
         {/each}
-        </div>
+    </div>
+
+
+    <!-- Features -->
 
 
 </div>
