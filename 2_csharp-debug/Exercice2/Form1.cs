@@ -26,7 +26,13 @@ namespace Exercice2
 
         private void timerCounter_Tick(object sender, EventArgs e)
         {
-            int yo = max / div;
+            int yo;
+            if(div>0 && max > 0)
+            {
+            yo = max / div;
+            }
+            Console.WriteLine(div);
+
             labelCounter.Text = string.Format("{0:N2}", (double)max / div);
             labelCounter.Update();
             div--;
