@@ -1,0 +1,57 @@
+@startuml ex3
+
+
+entity Habitation  {
+  +Habitation_id: INT (PK)
+  Habitation_type: VARCHAR
+  address: VARCHAR
+}
+
+entity Inhabitant #PaleGreen {
+  +inhabitant_id: INT (PK)
+  inhabitant_type: VARCHAR
+  name: VARCHAR
+}
+
+entity Tenant #SkyBlue {
+  +tenant_id: INT (PK)
+  lease_start_date: DATE
+  lease_end_date: DATE
+}
+
+entity Owner #IndianRed {
+  +owner_id: INT (PK)
+  ownership_start_date: DATE
+  ownership_end_date: DATE
+}
+
+entity HabitationInhabitant #PaleGreen {
+  +Habitation_inhabitant_id: INT (PK)
+  move_in_date: DATE
+  move_out_date: DATE
+  +Habitation_id: INT (FK)
+  +inhabitant_id: INT (FK)
+}
+
+entity HabitationTenant #SkyBlue {
+  +Habitation_tenant_id: INT (PK)
+  +Habitation_id: INT (FK)
+  +tenant_id: INT (FK)
+}
+
+entity HabitationOwner  #IndianRed{
+  +Habitation_owner_id: INT (PK)
+  +Habitation_id: INT (FK)
+  +owner_id: INT (FK)
+}
+
+HabitationInhabitant "0..1" -- "0..n" Habitation : resides in
+HabitationInhabitant "0..n" -up- "0..1" Inhabitant : has inhabitant
+
+HabitationTenant "0..n" -- "1" Habitation : has tenant
+HabitationTenant "1" -up- "0..n" Tenant : resides in
+
+HabitationOwner "0..n" -down- "1" Habitation : is owned by
+HabitationOwner "1" -up- "0..n" Owner : owns
+
+@enduml
