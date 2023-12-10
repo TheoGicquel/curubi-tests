@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         bunken: ['Bunken Tech Sans Pro'],
         tech: ['TechnicalForest'],
-        bunkenwide: ['BunkenWide']
+        bunkenwide: ['BunkenWide'],
+        bunkenlight: ['Bunken Tech Sans Pro Light']
       }
 
     },
