@@ -1,16 +1,16 @@
 <script>
      const links = {
-		"Title 1": "#linkA",
-  	    "Title 2": "#linkA",
-		"Title 3": "#linkA",
-		"Title 4": "#linkA",
+		"Home": "#hero",
+  	    "Explore": "#explore",
+		"Gallery": "#gallery",
+		"Contact": "#contact",
 	}
 
     const mainSubtexts = {
         
-        "Lorem ipsum dolor sit amet  " : "",
-  	    "exercitationem ": "",
-		"ipsum aliquid esse veniam assumenda ": "",
+        "Travel " : "",
+  	    "Meets ": "",
+		"Discovery": "",
     }
 
 </script>
@@ -31,12 +31,13 @@
     {/each}
     </div>
 
+    <!-- Small text -->
     <div class="flex flex-row justify-between pt-4 ">
         {#each Object.entries(mainSubtexts) as [name, link]}
             {#if (link.length >0)}
-            <a class="px-2  text-slate-600 text-1xl font-bunkenlight text-center hover:text-slate-300 transition" href={link}>{name}</a>
+            <a class="px-2 uppercase  text-slate-600 text-1xl font-bunkenlight text-center hover:text-slate-300 transition" href={link}>{name}</a>
             {:else}
-            <p class="px-2 text-slate-600 text-1xl font-bunkenlight text-center transition" >{name}<p>
+            <p class="px-2 uppercase text-slate-600 text-1xl font-bunkenlight text-center transition" >{name}<p>
             {/if}
 
         {/each}
