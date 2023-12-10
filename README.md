@@ -1,7 +1,7 @@
 # Curubi : Exercices de recrutement
 
 ## 1 - Frontend
-* [Site déployé](https://vercel.com/theogicquels-projects/tgicquel-curubi-deploy) disponible via Vercel [https://vercel.com/theogicquels-projects/tgicquel-curubi-deploy](https://vercel.com/theogicquels-projects/tgicquel-curubi-deploy)
+* [Site déployé](https://tgicquel-curubi-deploy.vercel.app) disponible via Vercel [https://tgicquel-curubi-deploy.vercel.app](https://tgicquel-curubi-deploy.vercel.app)
 * Accessible localement avec `npm install` puis `npm run dev` ( naviguer dans le dossier `./1_integration` au préalable)
 * Temps approximatif : 3h
 
@@ -12,6 +12,10 @@
 ## Apercu
 ![Résultat intégration](integration_result.PNG)
 
+## Améliorations possibles
+* Responsive mobile
+* Respect des normes d'accessibilité
+* Remplissage des autres sections
 
 ## 2 - C# Debugging
 
