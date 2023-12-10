@@ -6,9 +6,3 @@
 
   <Hero />
   
-  <style lang="postcss">
-
-
-
-
-  </style>
