@@ -9,6 +9,6 @@
         </p>
         
         <a class="text-orange-500 font-bunkenlight mx-auto animate-pulse hover:underline ease-in-out" href="mailto:theo.gicquel.work@gmail.com">theo.gicquel.work@gmail.com</a>
-        <a class="text-blue-500 font-bunkenlight mx-auto animate-pulse hover:underline ease-in-out" href="github.com/TheoGicquel">Github</a>
+        <a class="text-blue-500 font-bunkenlight mx-auto animate-pulse hover:underline ease-in-out" href="https://github.com/TheoGicquel">Github</a>
     
 </div>
