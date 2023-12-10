@@ -1,3 +1,162 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro';
+        src: url("/fonts/BunkenTechSansPro/BunkenTechSansPro-Bold.eot");
+        src: local('Bunken Tech Sans Pro Bold'), local('BunkenTechSansPro-Bold'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Bold.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Bold.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro Book';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Book.eot');
+        src: local('Bunken Tech Sans Pro Book'), local('BunkenTechSansPro-Book'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Book.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Book.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Book.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Book.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BoldIt.eot');
+        src: local('Bunken Tech Sans Pro Bold Italic'), local('BunkenTechSansPro-BoldIt'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BoldIt.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BoldIt.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BoldIt.ttf') format('truetype');
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro SeBd';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBdIt.eot');
+        src: local('Bunken Tech Sans Pro SeBd Italic'), local('BunkenTechSansPro-SeBdIt'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBdIt.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBdIt.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBdIt.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBdIt.ttf') format('truetype');
+        font-weight: 600;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro Book';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BookIt.eot');
+        src: local('Bunken Tech Sans Pro Book Italic'), local('BunkenTechSansPro-BookIt'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BookIt.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BookIt.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BookIt.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-BookIt.ttf') format('truetype');
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro ExBd';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBdIt.eot');
+        src: local('Bunken Tech Sans Pro ExBd Italic'), local('BunkenTechSansPro-ExBdIt'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBdIt.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBdIt.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBdIt.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBdIt.ttf') format('truetype');
+        font-weight: 800;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro Med';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Med.eot');
+        src: local('Bunken Tech Sans Pro Med'), local('BunkenTechSansPro-Med'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Med.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Med.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Med.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Med.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro Ligh';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-LightIt.eot');
+        src: local('Bunken Tech Sans Pro Light Italic'), local('BunkenTechSansPro-LightIt'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-LightIt.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-LightIt.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-LightIt.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-LightIt.ttf') format('truetype');
+        font-weight: 300;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro ExBd';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBd.eot');
+        src: local('Bunken Tech Sans Pro ExBd'), local('BunkenTechSansPro-ExBd'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBd.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBd.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBd.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-ExBd.ttf') format('truetype');
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro SeBd';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBd.eot');
+        src: local('Bunken Tech Sans Pro SeBd'), local('BunkenTechSansPro-SeBd'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBd.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBd.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBd.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-SeBd.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro Med';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-MedIt.eot');
+        src: local('Bunken Tech Sans Pro Med Italic'), local('BunkenTechSansPro-MedIt'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-MedIt.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-MedIt.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-MedIt.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-MedIt.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Bunken Tech Sans Pro Ligh';
+        src: url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Light.eot');
+        src: local('Bunken Tech Sans Pro Light'), local('BunkenTechSansPro-Light'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Light.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Light.woff2') format('woff2'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Light.woff') format('woff'),
+            url('/fonts/BunkenTechSansPro/BunkenTechSansPro-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'BunkenWide';
+        src: url('/fonts/BunkenWide');
+        src: local('Bunken Wide'),
+            url('/fonts/BunkenWide/Bunken-Tech-Sans-SC-Wide.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    
+
+}

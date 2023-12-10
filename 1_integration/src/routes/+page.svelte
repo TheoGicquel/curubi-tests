@@ -1,10 +1,14 @@
 <script>
-	import Hero from "$lib/hero.svelte";
+	import Hero from "$lib/Hero.svelte";
+
 
 </script>
 
   <Hero />
   
   <style lang="postcss">
+
+
+
 
   </style>

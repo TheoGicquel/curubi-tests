@@ -4,8 +4,14 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img': "url('src/img/bg_space.png')",
+        'hero-img': "url('/img/bg_space.png')",
+      },
+      fontFamily: {
+        bunken: ['Bunken Tech Sans Pro'],
+        tech: ['TechnicalForest'],
+        bunkenwide: ['BunkenWide']
       }
+
     },
   },
   plugins: [],
