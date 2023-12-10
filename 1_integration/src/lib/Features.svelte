@@ -13,7 +13,7 @@
 <div class="flex flex-row justify-around pt-2 ">
     {#each Object.entries(features) as [name]}
         
-        <p class="text-slate-600 text-1xl font-bunkenlight tracking-widest text-center  transition">{name}</p>
+        <p class="text-gray-400 text-1xl font-bunkenlight tracking-widest text-center  transition">{name}</p>
    
     {/each}
     </div>
